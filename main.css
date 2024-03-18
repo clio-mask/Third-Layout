@@ -57,6 +57,9 @@ html {
   letter-spacing: -0.2px;
 }
 
+.page__swiper-slide {
+    display: block;
+}
 .page__swiper-slide:first-child {
   margin-left: 15px;
 }
@@ -93,6 +96,9 @@ html {
   border: 2px solid #ff3e79;
   border-radius: 100%;
   padding: 11px 14px;
+}
+.page__show-more-button {
+    display: none;
 }
 
 @media screen and (width >= 450px) {
@@ -151,6 +157,14 @@ html {
     .page__swiper-slide.swiper-slide {
         width: 31%;
       }
+    .page__swiper-slide--hidden {
+        display: none!important;
+        
+    }
+    .page__show-more-button--open::before 
+    {
+        transform: rotate(180deg);
+    }
       
 }
 
