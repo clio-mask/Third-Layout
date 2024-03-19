@@ -57,9 +57,6 @@ html {
   letter-spacing: -0.2px;
 }
 
-.page__swiper-slide {
-    display: block;
-}
 .page__swiper-slide:first-child {
   margin-left: 15px;
 }
