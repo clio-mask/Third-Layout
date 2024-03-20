@@ -11,10 +11,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const enableSwiper = function (className, settings) {
       swiper = new Swiper(className, settings);
-
-      if (callback) {
-        callback(swiper);
-      }
     };
 
     const checker = function () {
